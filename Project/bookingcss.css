@@ -1,0 +1,69 @@
+body {
+  background-color: #F7FBFB;
+  width: 100%;
+  height: 100%;
+
+}
+.outbox{
+	width: 100%;
+	height: auto;
+}
+.inbox{
+	width: 45%;
+	margin: 1%;
+	display: inline-block;
+
+
+}
+.image-area{
+	align-content: center;
+	margin: 1px;
+	border: 1px orange solid;
+	height: 80%;
+	position: relative;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  background-color: #3b70a8;
+  color: white;
+  opacity: 0.6;
+  margin: 1%;
+  padding: 15px;
+  margin-bottom: 0.5%;
+  height: auto;
+}
+.text-block:hover {
+	color:#f6d74e;
+  	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 1);
+
+}
+.image-item{
+	width: 98%;
+	height: auto;
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+}
+.image-item:hover{
+	box-shadow: 0 0 7px 1px rgba(0, 140, 186, 1);
+}
+.booking-button{
+	margin: 1%;
+	height: 16%;
+}
+.btn {
+  border-color: #e7e7e7;
+  color: black;
+  min-height: 30px;
+  height: 40px;
+  width: auto;
+  margin-left: 40%;
+  border-radius: 50%;
+
+
+}
+
+.btn:hover {
+  background: #f37b53;
+}
