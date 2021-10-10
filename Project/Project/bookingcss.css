@@ -1,0 +1,186 @@
+body {
+  background-color: #F7FBFB;
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-size: 1.5rem;
+
+}
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+.outbox{
+	width: 73%;
+	height: auto;
+	display: inline-block;
+}
+.inbox{
+	width: 45%;
+	margin: 1%;
+	display: inline-block;
+
+
+}
+.image-area{
+	align-content: center;
+	margin: 1px;
+	height: 80%;
+	position: relative;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  background-color: #3b70a8;
+  color: white;
+  opacity: 0.6;
+  margin: 1%;
+  padding: 15px;
+  margin-bottom: 0.5%;
+  height: auto;
+}
+.text-block:hover {
+	color:#f6d74e;
+  	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 1);
+
+}
+.image-item{
+	width: 98%;
+	height: auto;
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+}
+.image-item:hover{
+	box-shadow: 0 0 7px 1px rgba(0, 140, 186, 1);
+}
+.booking-button{
+	margin: 1%;
+	height: 16%;
+}
+.btn {
+  border-color: #e7e7e7;
+  color: black;
+  min-height: 30px;
+  height: 40px;
+  width: auto;
+  margin-left: 40%;
+  border-radius: 50%;
+
+
+}
+
+.btn:hover {
+  background: #f37b53;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+	  background: white;
+	  width: 90%;
+	  max-width: 40rem;
+	  min-height: 40rem;
+	  margin: 5rem auto;
+	  display: grid;
+	  grid-template-rows: 8rem auto 10rem;
+	  box-shadow: 0 1rem 2.5rem rgb(27, 64, 94);
+
+	}
+.days {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 4rem;
+      }
+
+      .days li {
+        flex: 1;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        color: gray;
+        margin: 0 1px;
+      }
+    
+    .dates {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      text-align: center;
+      }
+      .days li {
+        width: 3.5rem;
+        height: 3.5rem;
+        display: grid;
+        font-weight: bold;
+        position: relative;
+      }
+      li .prev, li .next {
+        color: #ccc;
+      }
+      li .active {
+        background: orange;
+        color: white;
+        border-radius: 50%;
+      }
+      li .circle {
+        border: 2px solid;
+        border-radius: 50%;
+    }
+        .circle span {
+          position: absolute;
+          top: -0.75rem;
+          right: -0.5rem;
+          width: 1.75rem;
+          height: 1.75rem;
+          font-size: 1.2rem;
+          color: white;
+          border-radius: 50%;
+        }
+      
+      .orange {
+        border-color: orange;
+        }
+        .orange span {
+          background: orange;
+        }
+      
+      .purple {
+        border-color: purple;
+    	}
+        .purple span {
+          background: purple;
+        }
+    
+      
+    
+  .footerr {
+    color: black;
+    font-weight: bold;
+	}
+    .add {
+      text-decoration: none;
+      color: inherit;
+      border: 2px solid orange;
+      border-radius: 50%;
+      width: 3.5rem;
+      height: 3.5rem;
+      padding-top: 0.25rem;
+      display: grid;
+      align-content: center;
+    }
+  

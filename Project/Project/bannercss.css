@@ -1,0 +1,91 @@
+h1{
+	color: white;
+}
+.banner-outline{
+	height: 100%;
+	width: auto;	
+	background-color: gray;
+}
+.image-banner{
+	min-height: 200px;
+	height: 100%;
+	width: 100%;
+	border: 1px black solid;
+	background-image: url(banner.jpg);
+}
+.left-logo-dhi{
+	width: 20%;	
+	height: 100%;
+	top: 0;
+	display: inline-block;
+}
+.middle-text{
+	width: 58%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+}
+.left-logo-dhi img{
+	width: 80%;
+	height: auto;
+	position: static;
+	display: inline-block;
+}
+.right-sfl-logo img{
+	width: 47%;
+	height: auto;
+	position: static;
+	display: inline-block;
+}
+.right-sfl-logo{
+	width: 20%;
+	height: 10%;
+	display: inline-block;
+	position: relative;
+
+}
+
+
+
+.nav-area{
+	width: 100%;
+  	background-color: #555;
+  	overflow: auto;
+}
+.nav-area a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 18%; 
+  text-align: center;
+}
+.nav-area a:hover {
+  background-color: #3b70a8;
+}
+
+.nav-area a.active {
+  background-color: #3b70a8;
+}
+
+
+.body-part{
+	width: 100%;
+	display: inline-block;
+	height: auto;
+}
+.side-bar{
+	width: 23%;
+	height: 100%;
+	padding-left: 5px;
+	display: inline-block;	
+	margin-left: 3%;
+	text-align: center;
+	margin-right: 5rem auto;
+	box-shadow: 0 1rem 2.5rem rgb(27, 64, 94);
+}
+.side-box{
+	width: 100%;
+	height: 33%;
+}

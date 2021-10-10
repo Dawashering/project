@@ -1,0 +1,34 @@
+.footer{
+	background-color: 	#5388ac;
+	width: 100%;
+	height: auto;
+}
+.upper-raw{
+	height: auto;
+	width: 100%;
+}
+.upper-raw-col{
+	width: 18%;
+	height: auto;
+	display: inline-block;
+	padding: 1%;
+}
+hr{
+	width: 75%;
+}
+.col-1{
+	margin-left: 7%;
+}
+.col-1{
+	margin-right: 7%;
+}
+li a{
+	text-decoration: none;
+	color: black;
+}
+li a:hover{
+	color: green;
+}
+.follow a{
+	color: blue;
+}
